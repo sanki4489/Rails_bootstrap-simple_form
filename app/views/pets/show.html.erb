@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pet.name %>
+</p>
+
+<p>
+  <strong>Last hugged at:</strong>
+  <%= @pet.last_hugged_at %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @pet.email %>
+</p>
+
+<p>
+  <strong>Fluffy:</strong>
+  <%= @pet.fluffy %>
+</p>
+
+<p>
+  <strong>Colour:</strong>
+  <%= @pet.colour %>
+</p>
+
+<%= link_to 'Edit', edit_pet_path(@pet) %> |
+<%= link_to 'Back', pets_path %>
